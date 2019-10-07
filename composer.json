@@ -1,0 +1,26 @@
+{
+  "name": "lum/lum-opensrs",
+  "description": "Lum OpenSRS API Library",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name": "Timothy Totten",
+      "email": "supernovus@gmail.com",
+      "role": "Original Author"
+    }
+  ],
+  "require":
+  {
+    "php": "^7.0",
+    "lum/lum-curl": "^1.0 || dev-master",
+    "lum/simpledom": "^2.1 || dev-master"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Lum\\OpenSRS\\": "lib"
+    }
+  }
+}
